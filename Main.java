@@ -28,14 +28,10 @@ public class Main {
   }else{
     lastrow = 0;
   }
-  //If N=1
- if (N==1){
- System.out.println("♥♡♥");
- System.out.println("♡♥♡");
- }
+  
 
  //Top part
-  else{
+
   for(int i=0; i<=N-2; i++)
 {
   for (int j=1; j<=rows; j++)
@@ -58,7 +54,7 @@ else
 System.out.print("♡");
 }
 System.out.println("");
-}}}}
+}}}
   
 //for (int j=0; j<=i; j++ )  
 //{  
